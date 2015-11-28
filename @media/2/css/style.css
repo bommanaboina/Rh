@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+   background:#F96 url(../../../Nagesh/Ramesh/hotel/images/4.jpg) no-repeat;	
+}
+.content{
+	overflow:hidden;
+	margin:0px;
+}
+
+
+.promo1{
+   float:left;
+   width:33%;	
+}
+.promo1 h1{
+   color:#090;	
+}
+.promo1 p{
+   color:#06F;	
+}
+
+@media all and (max-width: 600px) and (min-width:500px) {
+       body{
+   background:#666 url(../../../Nagesh/Ramesh/hotel/images/4.jpg) no-repeat;	
+}
+	.promo1 h1{
+   color:#F00;	
+}
+.content{
+    width:100%;  
+	margin:0px auto;
+}
+
+
+}

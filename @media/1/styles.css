@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background:#CCF url(08453e9967985aa226663175838cb557.jpg) no-repeat;
+	
+}
+.content{
+width:1170px;
+margin:0px auto;	
+}
+.div1,.div2,.div3,.div4{
+width:25%;
+float:left;
+	
+}
+.content1{
+	width:1000px;
+	margin:0px auto;
+	overflow:hidden;
+	
+}
+.content1 div{
+	
+	background:url(08453e9967985aa226663175838cb557.jpg) no-repeat;
+	width:200px;
+}
+@media all and (max-width: 1000px) and (min-width:800px) {
+    body {
+		background:url(08453e9967985aa226663175838cb557.jpg) nono-repeat; 
+    }
+	.content{
+width:100%;
+margin:0px auto;	
+}
+
+}
+@media all and (max-width: 799px) and (min-width: 520px) {
+    body {
+		background:#00CC33 url(08453e9967985aa226663175838cb557.jpg) no-repeat;
+        
+    }
+		.content{
+width:100%;
+margin:0px auto;	
+}
+	
+.div1 h1,.div2 h1,.div3 h1,.div4 h1{
+	
+	color:#00F;
+	
+}
+}
+@media all and (max-width:519px) and (min-width: 0px) {
+    body {
+		background:#F00 url(../Nagesh/Ramesh/hospital/images/slider.png) no-repeat;
+        
+    }
+		.content{
+width:100%;
+margin:0px auto;	
+}
+.div1,.div2,.div3,.div4{
+width:100%;
+float:left;
+	
+}.div1 h1,.div2 h1,.div3 h1,.div4 h1{
+	font-size:16px;
+	color:#00F;
+}
+}
+
